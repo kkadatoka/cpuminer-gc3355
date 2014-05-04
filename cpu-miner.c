@@ -339,6 +339,7 @@ static void clean_tui()
 static void init_tui()
 {
 	initscr();
+	start_color();
 	cbreak();
 	keypad(stdscr, TRUE);
 	noecho();
