@@ -613,10 +613,10 @@ static void share_result(int result, const char *reason, int thr_id, int chip_id
 	gc3355_devs[thr_id].last_share[chip_id] = timestr.tv_sec;
 	gc3355_devs[thr_id].shares[chip_id] += stratum.job.diff;
 	pthread_mutex_unlock(&stats_lock);
-	applog(LOG_INFO, "%s %08x GSD %d@%d %s",
+	applog(LOG_INFO, "%s %08x GSD %d@%d%s%s",
 	   result ? "Accepted" : "Rejected",
 	   gc3355_devs[thr_id].last_nonce[chip_id],
-	   thr_id, chip_id, reason ? reason : ""
+	   thr_id, chip_id, reason ? " : " :"", reason ? reason : ""
 	);
 	if (reason)
 		applog(LOG_DEBUG, "DEBUG: reject reason: %s", reason);

@@ -945,7 +945,7 @@ configure:5370: $? = 0
 configure:5379: result: yes
 configure:5522: checking for library containing addstr
 configure:5553: gcc -std=gnu99 -o conftest -O3   conftest.c  >&5
-/tmp/cck7AHHd.o: In function `main':
+/tmp/ccClcae4.o: In function `main':
 conftest.c:(.text.startup+0x4): undefined reference to `addstr'
 collect2: ld returned 1 exit status
 configure:5553: $? = 1
@@ -1036,6 +1036,7 @@ config.status:932: creating Makefile
 config.status:932: creating compat/Makefile
 config.status:932: creating compat/jansson/Makefile
 config.status:932: creating cpuminer-config.h
+config.status:1113: cpuminer-config.h is unchanged
 config.status:1161: executing depfiles commands
 
 ## ---------------- ##
@@ -1120,7 +1121,7 @@ libcurl_cv_lib_version_ok=yes
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/pi/siklon/cpuminer-gc3355/missing --run aclocal-1.11'
+ACLOCAL='${SHELL} /home/pi/kkadatoka/cpuminer-gc3355/missing --run aclocal-1.11'
 ALLOCA=''
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
@@ -1132,9 +1133,9 @@ ARCH_x86_64_FALSE=''
 ARCH_x86_64_TRUE='#'
 ARCH_x86_FALSE=''
 ARCH_x86_TRUE='#'
-AUTOCONF='${SHELL} /home/pi/siklon/cpuminer-gc3355/missing --run autoconf'
-AUTOHEADER='${SHELL} /home/pi/siklon/cpuminer-gc3355/missing --run autoheader'
-AUTOMAKE='${SHELL} /home/pi/siklon/cpuminer-gc3355/missing --run automake-1.11'
+AUTOCONF='${SHELL} /home/pi/kkadatoka/cpuminer-gc3355/missing --run autoconf'
+AUTOHEADER='${SHELL} /home/pi/kkadatoka/cpuminer-gc3355/missing --run autoheader'
+AUTOMAKE='${SHELL} /home/pi/kkadatoka/cpuminer-gc3355/missing --run automake-1.11'
 AWK='mawk'
 CC='gcc -std=gnu99'
 CCAS='gcc -std=gnu99'
@@ -1171,7 +1172,7 @@ LTLIBOBJS=''
 MAINT='#'
 MAINTAINER_MODE_FALSE=''
 MAINTAINER_MODE_TRUE='#'
-MAKEINFO='${SHELL} /home/pi/siklon/cpuminer-gc3355/missing --run makeinfo'
+MAKEINFO='${SHELL} /home/pi/kkadatoka/cpuminer-gc3355/missing --run makeinfo'
 MKDIR_P='/bin/mkdir -p'
 NCURSES_LIBS=''
 OBJEXT='o'
@@ -1228,7 +1229,7 @@ host_vendor='unknown'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/pi/siklon/cpuminer-gc3355/install-sh'
+install_sh='${SHELL} /home/pi/kkadatoka/cpuminer-gc3355/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

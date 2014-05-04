@@ -1,0 +1,3 @@
+minerd-sha2-arm.o: sha2-arm.S cpuminer-config.h
+
+cpuminer-config.h:
