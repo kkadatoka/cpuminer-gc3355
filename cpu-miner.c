@@ -619,7 +619,7 @@ static void share_result(int result, const char *reason, int thr_id, int chip_id
 	   thr_id, chip_id, reason ? reason : ""
 	);
 	if (reason)
-		applog(LOG_INFO, "DEBUG: reject reason: %s", reason);
+		applog(LOG_DEBUG, "DEBUG: reject reason: %s", reason);
 }
 
 static void restart_threads(void)
