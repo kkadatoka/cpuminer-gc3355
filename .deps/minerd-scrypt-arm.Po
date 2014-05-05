@@ -1,3 +1,0 @@
-minerd-scrypt-arm.o: scrypt-arm.S cpuminer-config.h
-
-cpuminer-config.h:
