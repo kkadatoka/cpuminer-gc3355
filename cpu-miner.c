@@ -616,7 +616,7 @@ static void share_result(int result, const char *reason, int thr_id, int chip_id
 	applog(LOG_INFO, "%s %08x GSD %d@%d%s%s",
 	   result ? "Accepted" : "Rejected",
 	   gc3355_devs[thr_id].last_nonce[chip_id],
-	   thr_id, chip_id, reason ? " : " :"", reason ? reason : ""
+	   thr_id, chip_id, reason ? " : Reject reason - " :"", reason ? reason : ""
 	);
 	if (reason)
 		applog(LOG_DEBUG, "DEBUG: reject reason: %s", reason);
